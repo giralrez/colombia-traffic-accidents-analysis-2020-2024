@@ -128,8 +128,8 @@ The interactive dashboard covers:
 
 ---
 
-<¡--
-## 📸 Dashboard Preview
+
+<!-- ## 📸 Dashboard Preview
 
 > *Add screenshots of your Power BI dashboard here for maximum visual impact*
 >
