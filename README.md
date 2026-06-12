@@ -128,6 +128,7 @@ The interactive dashboard covers:
 
 ---
 
+<¡--
 ## 📸 Dashboard Preview
 
 > *Add screenshots of your Power BI dashboard here for maximum visual impact*
@@ -140,6 +141,7 @@ The interactive dashboard covers:
 > `![Dashboard Overview](./assets/dashboard_overview.png)`
 
 ---
+-->
 
 ## 📦 Data Sources
 
