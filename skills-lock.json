@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "data-analyst": {
+      "source": "ailabs-393/ai-labs-claude-skills",
+      "sourceType": "github",
+      "skillPath": "packages/skills/data-analyst/SKILL.md",
+      "computedHash": "7c438d04536efefdf05d75287835b8b8649bce678ee01e12317065bd9e98752e"
+    }
+  }
+}
