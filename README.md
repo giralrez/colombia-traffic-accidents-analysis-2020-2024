@@ -111,37 +111,102 @@ The raw datasets required significant preparation before analysis:
 
 ---
 
-## 📊 Dashboard — Power BI
 
-The interactive dashboard covers:
 
-- 📈 **Annual trend line** — accident volume 2020–2024 with COVID-19 period annotation
-- 🗓️ **Temporal heatmap** — accident frequency by day of week and hour
-- 🚗 **Road actor breakdown** — cyclists, motorcyclists, pedestrians, drivers
-- ⚠️ **Severity distribution** — fatalities, serious injuries, minor injuries by year
-- 📍 **Geographic concentration** — accident density by Bogotá locality *(if applicable)*
-- 🔍 **Interactive filters** — year, accident type, severity, vehicle type
+## 🖥️ Dashboard Preview — Power BI
 
-> 📥 **Download the dashboard:** [`Siniestralidad vial Bogotá.pbix`](./Siniestralidad%20vial%20Bogot%C3%A1.pbix)
->
-> 📄 **View as PDF:** [`Siniestralidad vial Bogotá.pdf`](./Siniestralidad%20vial%20Bogot%C3%A1.pdf)
+The Power BI dashboard provides an interactive analytical view of road traffic accidents in Bogotá between 2020 and 2024.
+
+The report is structured into six analytical views covering **accident frequency, victims, road actors, vehicles, risk factors, and geographic distribution**.
+
+### 📊 Dashboard Views
+
+#### 01. Accident Frequency & Temporal Analysis
+
+Analysis of accident frequency by **year, month, day of week, and hour**, including accident severity and the highest-accident dates.
+
+<p align="center">
+  <img src="./assets/dashboard/dashboard_01.png" alt="Power BI Dashboard - Accident Frequency" width="900">
+</p>
+
+---
+
+#### 02. Victim Analysis
+
+Analysis of victims by **day, month, year, severity, age group, sex, and subsequent mortality**, providing a detailed view of the human impact of road accidents.
+
+<p align="center">
+  <img src="./assets/dashboard/dashboard_02.png" alt="Power BI Dashboard - Victim Analysis" width="900">
+</p>
 
 ---
 
+#### 03. Accident Classification & Road Actors
 
-<!-- ## 📸 Dashboard Preview
+Breakdown of accidents by **collision object, accident class, specific victim condition, and road actor**, highlighting the most frequently involved actors.
 
-> *Add screenshots of your Power BI dashboard here for maximum visual impact*
->
-> Suggested captures:
-> - Main KPI overview page
-> - Temporal trend chart
-> - Road actor breakdown chart
->
-> `![Dashboard Overview](./assets/dashboard_overview.png)`
+<p align="center">
+  <img src="./assets/dashboard/dashboard_03.png" alt="Power BI Dashboard - Accident Classification and Road Actors" width="900">
+</p>
 
 ---
--->
+
+#### 04. Vehicle Analysis
+
+Analysis of involved vehicles by **vehicle type, SITP type, vehicle class, service category, and transportation type**.
+
+<p align="center">
+  <img src="./assets/dashboard/dashboard_04.png" alt="Power BI Dashboard - Vehicle Analysis" width="900">
+</p>
+
+---
+
+#### 05. Risk Factors & Transportation
+
+Analysis of the main **road safety risk factors**, transportation types, and vehicle involvement across the 2020–2024 period.
+
+<p align="center">
+  <img src="./assets/dashboard/dashboard_05.png" alt="Power BI Dashboard - Risk Factors and Transportation" width="900">
+</p>
+
+---
+
+#### 06. Geographic Distribution
+
+Geographic analysis of accident concentration across Bogotá, including the **top accident-prone road corridors, localities, and heatmap distribution**.
+
+<p align="center">
+  <img src="./assets/dashboard/dashboard_06.png" alt="Power BI Dashboard - Geographic Distribution" width="900">
+</p>
+
+---
+
+### 🔎 Interactive Analysis
+
+The Power BI report includes interactive filters for:
+
+* 📅 Date range
+* 🕐 Accident hour
+* ⚠️ Accident severity
+* 🚗 Vehicle type
+* 👤 Victim condition
+* 🛣️ Accident class
+* 📍 Locality
+* ⚠️ Risk factors
+* 🎯 Age
+* 📊 Top accident dates
+
+> **Note:** The images above are static previews extracted from the Power BI PDF export. For the complete interactive experience, open the `.pbix` file using **Power BI Desktop**.
+
+**Files:**
+
+* 📊 [`Siniestralidad vial Bogotá.pbix`](./Siniestralidad%20vial%20Bogot%C3%A1.pbix) — Interactive Power BI report
+* 📄 [`Siniestralidad vial Bogotá.pdf`](./Siniestralidad%20vial%20Bogot%C3%A1.pdf) — PDF export
+
+
+
+
+
 
 ## 📦 Data Sources
 
